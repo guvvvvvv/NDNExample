@@ -4,6 +4,7 @@
 from ndn_example.producer import *
 from ndn_example.consumer import *
 import multiprocessing 
+from pyndn.security import SecurityException
 
 def init_certs():
     keyChain = KeyChain()
